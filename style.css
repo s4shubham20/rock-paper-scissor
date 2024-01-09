@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    background-color: rgba(11, 11, 11, 0.99);
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 3.5rem;
+}
+
+#choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.choice{
+    width: 210px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    background: radial-gradient(100% 525.52% at 0% 50%, #CC006A 0%, #513EB3 100%);
+    border-radius: 50%;
+}
+
+img{
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+p{
+    color: black;
+    font-size: 5rem;
+}
+#msg{
+    width: 90%;
+    margin: 5rem auto 0px;
+    background: radial-gradient(100% 525.52% at 0% 50%, #CC006A 0%, #513EB3 100%);
+    color: white;
+    border-radius: 10px;
+}
+
